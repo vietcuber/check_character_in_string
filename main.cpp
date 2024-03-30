@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	char string[99];
+	char string[100];
 	int c, count = 0;
 	printf("How many 'c' characters appear in the string you just entered?\n");
 	printf("Enter a string (less than 100 characters): ");
-	fgets(string, 99, stdin);
+	fgets(string, 100, stdin);
 	printf("Enter a character 'c': ");
 	c = getchar();
 	for (int i = 0; string[i] != '\0'; i++) {
